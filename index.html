@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeFit</title>
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+
+    <meta name="theme-color" content="#2091F9">
+    
+</head>
+
+<body>
+
+    <header class="hero">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <h2 class="nav__title">Fit Industry.</h2>
+            </div>
+
+            <ul class="nav__link nav__link--menu">
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Inicio</a>
+                </li>
+                <li class="nav__items">
+                    <a href="acercade.html" class="nav__links">Acerca de</a>
+                </li>
+                <li class="nav__items">
+                    <a href="contacto.html" class="nav__links">Contacto</a>
+                </li>
+                <li class="nav__items">
+                    <a href="https://www.amazon.es/s?k=material+i+suplementos+fitness&__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=5EYU6JGJCS0B&sprefix=material+i+suplementos+fitness%2Caps%2C152&ref=nb_sb_noss" class="nav__links">Material y suplementos</a>
+                </li>
+
+                <img src="./images/close.svg" class="nav__close">
+            </ul>
+
+            <div class="nav__menu">
+                <img src="./images/menu.svg" class="nav__img">
+            </div>
+        </nav>
+
+        <section class="hero__container container">
+            <h1 class="hero__title">Da el paso, atrévete.</h1>
+            <p class="hero__paragraph">Elige entrenar con nosotros y marca la diferencia.</p>
+            <a href="#precios" class="cta">Comienza ahora</a>
+            <video autoplay="autoplay" loop="loop" id="video_background" preload="auto" volume="50"/>
+
+            <source src="https://www.technogym.com/media/videos/tgapp_hero.mp4" type="video/mp4" />
+          </video/>
+        </section>
+    </header>
+
+    <main>
+        <section class="container about">
+            <h2 class="subtitle">¿Qué lograrás siguiendo nuestro programa?</h2>
+            <p class="about__paragraph">Todo lo necesario para ponerse al nivel de un atleta de élite</p>
+
+            <div class="about__main">
+                <article class="about__icons">
+                    <img src="./images/shapes.svg" class="about__icon">
+                    <h3 class="about__title">Peso</h3>
+                    <p class="about__paragrah">Set de ejercicios variados con peso adaptable.</p>
+                </article>
+
+                <article class="about__icons">
+                    <img src="./images/paint.svg" class="about__icon">
+                    <h3 class="about__title">Cardio</h3>
+                    <p class="about__paragrah">Rutinas de corta pero intensa duración enfocados en el esfuerzo pulmonar i cardiovascular.</p>
+                </article>
+
+                <article class="about__icons">
+                    <img src="./images/code.svg" class="about__icon">
+                    <h3 class="about__title">Resistencia</h3>
+                    <p class="about__paragrah">Entrenamientos de larga duración centrados la fatiga.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="knowledge">
+            <div class="knowledge__container container">
+                <div class="knowledege__texts">
+                    <h2 class="subtitle">Entrenamiento personalizado! </h2>
+                    <p class="knowledge__paragraph">Ponte en forma de la manera mas eficiente y práctica siguiendo nuestras rutinas 
+                        centradas única y exclusivamente en ti</p>
+                    <a href="#precios" class="cta">Entra al los cursos</a>
+                </div>
+
+                <figure class="knowledge__picture">
+                    <img src="./images/technogym.jpg" class="knowledge__img" >
+                </figure>
+            </div>
+        </section>
+
+        <section class="price container" id="precios">
+            <h2 class="subtitle">Obten el plan perfecto para comenzar</h2>
+
+            <div class="price__table">
+                <div class="price__element">
+                    <p class="price__name">Básico</p>
+                    <h3 class="price__price">Gratis</h3>
+
+                    <div class="price__items">
+                        <p class="price__features">Rutinas generalizadas</p>
+                        <p class="price__features"></p>
+                        <p class="price__features"></p>
+                    </div>
+
+                    <a href="payment.html" class="price__cta">Empieza ahora</a>
+                </div>
+
+
+                <div class="price__element price__element--best">
+                    <p class="price__name">Intermedio</p>
+                    <h3 class="price__price">$30/mes</h3>
+
+                    <div class="price__items">
+                        <p class="price__features">Rutinas personalizadas</p>
+                        <p class="price__features">Plan nutricional</p>
+                        <p class="price__features"></p>
+                    </div>
+
+                    <a href="payment.html" class="price__cta">Empieza ahora</a>
+                </div>
+
+
+                <div class="price__element">
+                    <p class="price__name">Avanzado</p>
+                    <h3 class="price__price">$40/mes</h3>
+
+                    <div class="price__items">
+                        <p class="price__features">Rutinas personalizadas</p>
+                        <p class="price__features">Plan nutricional</p>
+                        <p class="price__features">Seguimiento del proceso</p>
+                    </div>
+
+                    <a href="payment.html" class="price__cta">Empieza ahora</a>
+                </div>
+
+
+            </div>
+        </section>
+
+        <section class="testimony">
+            <div class="testimony__container container">
+                <img src="./images/leftarrow.svg" class="testimony__arrow" id="before">
+
+                <section class="testimony__body testimony__body--show" data-id="1">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Mi nombre es Maria Santos, <span class="testimony__course">miembro del plan Fit.</span></h2>
+                        <p class="testimony__review">Nada más pasar 1 semana de haber empezado, los cambios ya son considerablemente visibles.
+                             Este programa, me ha ayudado a conseguir la mejor versión de mi mismo. </p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/face.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="2">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Mi nombre es Alejandra Perez, <span class="testimony__course">miembro del plan Fit.</span></h2>
+                        <p class="testimony__review">Mi estado físico actual es realmente increïble, y todo gracias a este plan. En tan solo 3 meses, logré perder 30kg...</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/face2.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="3">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Mi nombre es Jose Arteaga, <span class="testimony__course">miembro del plan Fit.</span></h2>
+                        <p class="testimony__review">No tengo palabras para describir todo lo que me ha ayudado seguir este entrenamiento. Me he deshecho de todas mis inseguridades fisicas.</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/face3.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="4">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Mi nombre es Kevin Ramirez, <span class="testimony__course">miembro del plan Fit.</span></h2>
+                        <p class="testimony__review">Estoy muy satisfecho con los resultados que he logrado en los 5 meses que llevo entrenando, es curso es insuperable.</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/face4.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+
+                <img src="./images/rightarrow.svg" class="testimony__arrow" id="next">
+            </div>
+        </section>
+
+        <section class="questions container">
+            <h2 class="subtitle">Preguntas frecuentes</h2>
+            <p class="questions__paragraph">Resuelve tus dudas aqui. </p>
+
+            <section class="questions__container">
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">¿En qué consiste el entrenamiento Fit?
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">Se trata de un programa de entrenamiento personalizado adaptable a uno mismo
+                             diseñado y estructurado para obtener las máximas ganancias en el menor tiempo posible.  </p>
+                    </div>
+                </article>
+
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">¿En que aspectos mejoraré?
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">Vas a mejorar de manera considerable en todos los aspectos, tanto física como mentalmente.
+                             Va a augmentar tu masa muscular y se va a reducir tu porcentaje de grasa corporal. Debido a tu mejoría fisica, con el tiempo también tu confianza será mayor.  </p>
+                    </div>
+                </article>
+
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">¿Cuánto tiempo me va a llevar?
+                            <span class="questions__arrow">
+                                <img src="./images/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">En principio, la duración total del programa es de 6 meses, pero dependiendo de tu estado fisico inicial, 
+                            se puede alargar o acortar. Todo depende de ti, tu voluntad y tu esfuerzo.</p>
+                    </div>
+                </article>
+            </section>
+
+            <section class="questions__offer">
+                <h2 class="subtitle">¿Estas listo para llevar tu cuerpo a otro nivel?</h2>
+                <p class="questions__copy">Confía en el plan y no te arrepentirás</p>
+                <a href="#precios" class="cta">Comienza ahora</a>
+            </section>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <section class="footer__container container">
+            <nav class="nav nav--footer">
+                <h2 class="footer__title">Fit Industry.</h2>
+
+                <ul class="nav__link nav__link--footer">
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Inicio</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="acercade.html" class="nav__links">Acerca de</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="contacto.html" class="nav__links">Contacto</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="https://www.amazon.es/s?k=material+i+suplementos+fitness&__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=5EYU6JGJCS0B&sprefix=material+i+suplementos+fitness%2Caps%2C152&ref=nb_sb_noss" class="nav__links">Materiales y suplementos</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <form class="footer__form" action="https://formspree.io/f/mknkkrkj" method="POST">
+                <h2 class="footer__newsletter">Suscribete para novedades</h2>
+                <div class="footer__inputs">
+                    <input type="email" placeholder="Email:" class="footer__input" name="_replyto">
+                    <input type="submit" value="Registrate" class="footer__submit">
+                </div>
+            </form>
+        </section>
+
+        <section class="footer__copy container">
+            <div class="footer__social">
+                <a href="https://es-es.facebook.com/" class="footer__icons"><img src="./images/facebook.svg" class="footer__img"></a>
+                <a href="https://twitter.com/" class="footer__icons"><img src="./images/twitter.svg" class="footer__img"></a>
+                <a href="https://www.youtube.com/" class="footer__icons "><img src="./images/youtube.svg" class="footer__img"></a>
+            </div>
+
+            <h3 class="footer__copyright">Derechos reservados &copy; Adrià Mateu</h3>
+        </section>
+    </footer>
+
+    <script src="./js/slider.js"></script>
+    <script src="./js/questions.js"></script>
+    <script src="./js/menu.js"></script>
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/scroll.js"></script>
+</body>
+
+</html>
